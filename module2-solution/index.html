@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms And Input</title>
+</head>
+
+<body>
+    <h2>Form</h2>
+    <form action="">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name" placeholder="Enter your Name
+        />
+      </div>
+
+      <label for=" fname ">Father's Name</label>
+      <div>
+        <input
+          type="text "
+          name="myFname "
+          id="fname "
+          placeholder="Enter Father 's Name"
+        />
+      </div>
+      <label for="cnic">CNIC</label>
+      <div>
+        <input type="text" name="myCnic" id="cnic" placeholder="Enter CNIC" />
+      </div>
+      <div>
+        Gender: <br />
+        <label for="male">٘Male</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" />
+      </div>
+      <label for="email">Email</label>
+      <div>
+        <input type="email" name="myEmail" id="email" />
+      </div>
+      <label for="password">Password</label>
+      <div>
+        <input type="password" name="mypassword" id="password" />
+      </div>
+      <label for="about">About yourself?</label>
+      <div>
+        <textarea name="myMe" id="about" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="terms">Accept terms & Conditions:</label>
+        <input type="checkbox" name="Myterms" id="terms" checked />
+      </div>
+
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+  </body>
+</html>
