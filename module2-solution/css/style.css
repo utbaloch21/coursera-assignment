@@ -1,1 +1,108 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+section {
+    position: relative;
+    padding: 10px;
+    width: 95%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border: 3px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#title1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(250, 116, 62);
+}
+
+#title2 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(219, 27, 27);
+}
+
+#title3 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(218, 178, 49);
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    overflow: auto;
+}
+
+@media(min-width:992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:767) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
